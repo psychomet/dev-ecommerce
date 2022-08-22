@@ -71,9 +71,9 @@ export const config: VendureConfig = {
             globalTemplateVars: {
                 // The following variables will change depending on your storefront implementation
                 fromAddress: '"example" <noreply@example.com>',
-                verifyEmailAddressUrl: 'http://localhost:8080/verify',
-                passwordResetUrl: 'http://localhost:8080/password-reset',
-                changeEmailAddressUrl: 'http://localhost:8080/verify-email-address-change'
+                verifyEmailAddressUrl: 'http://psychomet.ir/verify',
+                passwordResetUrl: 'http://psychomet.ir/password-reset',
+                changeEmailAddressUrl: 'http://psychomet.ir/verify-email-address-change'
             },
         }),
         AdminUiPlugin.init({
