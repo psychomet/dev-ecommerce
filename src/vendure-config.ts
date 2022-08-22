@@ -26,7 +26,10 @@ export const config: VendureConfig = {
             } as any,
         },// turn this off for production
         shopApiDebug: true,// turn this off for production
-        cors: true
+        cors: {
+            origin: true,
+            credentials: true
+        }
     },
     authOptions: {
         superadminCredentials: {
